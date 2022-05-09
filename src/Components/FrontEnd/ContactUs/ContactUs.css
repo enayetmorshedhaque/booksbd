@@ -1,0 +1,11 @@
+.custom-contact-card{
+    height: 154px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-contact-card{
+        height: 154px;
+        width: 100%;
+    }
+}

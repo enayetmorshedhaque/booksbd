@@ -1,0 +1,37 @@
+.why-choose-us {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info-item {
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.info-item-sep{
+    border-right: 1px solid #e1e1e1;
+}
+
+.info-thumb {
+    margin-right: 20px;
+}
+
+.info-item svg {
+    font-size: 1.75rem;
+    /* color: #fcb800; */
+    line-height: 1;
+    display: block;
+}
+
+.info-item h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 0;
+}
+
+.info-item p {
+    margin-bottom: 0;
+}

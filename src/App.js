@@ -1,24 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import ContactUs from './Components/FrontEnd/ContactUs/ContactUs';
+import Footer from './Components/Shared/Footer/Footer';
+import WhyChooseUs from './Components/Shared/WhyChooseUs/WhyChooseUs';
+import Subscribe from './Components/Shared/Subscribe/Subscribe';
+import Authors from './Components/FrontEnd/Authors/Authors';
+import Publications from './Components/FrontEnd/Publications/Publications';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    [
+      <Authors></Authors>,
+      <Publications></Publications>,
+      <ContactUs></ContactUs>,
+      <Subscribe></Subscribe>,
+      <WhyChooseUs></WhyChooseUs>,
+      <Footer></Footer>
+    ]
   );
 }
 
