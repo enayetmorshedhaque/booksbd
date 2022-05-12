@@ -4,6 +4,17 @@ html, body{
   background-color: #f1f2f4;
   font-family: 'Hind Siliguri', sans-serif;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
 .primary-color{
   background-color: #048f3e;
+}
+
+/* Social Login CSS */
+.social-login:hover{
+  cursor: pointer;
 }

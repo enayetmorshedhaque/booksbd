@@ -6,7 +6,7 @@ const ContactUs = () => {
         [
             // Contact Us Section Starts Here
         <section className="container">
-            <div className="pb-3 my-4 rounded-0 div-custom-padding">
+            <div className="pb-3 my-5 rounded-0 div-custom-padding">
                 <h4 className="card-title mb-4 text-center">আমাদের সাথে যোগাযোগের মাধ্যম</h4>
                 <div className="row">
                     <div className="col-md-4 mb-4">

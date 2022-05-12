@@ -1,0 +1,20 @@
+#navbar-container{
+    max-width: 1150px;
+    z-index: 3050;
+    padding: 20px 0 20px 0;
+    transition: all 0.3s;
+}
+
+.navbar-stuck-menu{
+    padding: 10px 0;
+    margin-left: 70px;
+}
+
+.list-inline-item{
+    padding: 10px 20px 5px 20px;
+}
+
+.list-inline-item a{
+    font-size: 16px;
+    font-weight: 600;
+}

@@ -7,7 +7,7 @@ const Publications = () => {
         [
             // Author Section Header Starts Here
             <section className="container">
-                <div className="p-5 my-4 rounded-3 bg-white shadow div-custom-padding">
+                <div className="p-5 my-5 rounded-3 bg-white shadow div-custom-padding">
                     <h3 className="display-5 fw-bold text-center">প্রকাশনী</h3>
                     <hr/>
                     <div className="mx-auto text-start">

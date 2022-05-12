@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import logo from '../../../Resources/Images/Logo/logo.png';
 import paymentGateway from '../../../Resources/Images/PaymentGateWay/surjopay-footer.png';
+import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         // Footer Section Starts Here
@@ -13,7 +14,8 @@ const Footer = () => {
                     <div className="col-md-3 mb-2">
                         <img src={logo} alt="" className="img-fluid p-0" width="230px"/>
                         <address className="mt-3 fw-normal">
-                            ৩৭৪/১, আহমেদ নগর, মিরপুর-১, ঢাকা-১২১৬, বাংলাদেশ
+                            ৫৫/১/এ, নারিন্দা, শাহ সাহেব লেন,<br />
+                            ঢাকা-১১০০, বাংলাদেশ
                         </address>
                         <div className="text-start">
                             <a href="mailto:query@booksbd.net"
@@ -25,22 +27,23 @@ const Footer = () => {
                         <h5 className="fw-bold mb-2">আমার একাউন্ট</h5>
                         <ul className="list-unstyled">
                             <li className="mb-1">
-                                <a href="login.html" className="text-decoration-none text-dark">লগইন</a>
+                                <Link to='/login' className="text-dark">লগইন</Link>
                             </li>
                             <li className="mb-1">
-                                <a href="registration.html" className="text-decoration-none text-dark">রেজিস্টার</a>
+                                <Link to='/register' className="text-dark">রেজিস্টার</Link>
                             </li>
                             <li className="mb-1">
-                                <a href="my-account.html" className="text-decoration-none text-dark">আমার একাউন্ট</a>
+                                <Link to='/my-account' className="text-dark">আমার একাউন্ট</Link>
                             </li>
                             <li className="mb-1">
-                                <a href="my-orders.html" className="text-decoration-none text-dark">অর্ডারের ইতিহাস</a>
+                                <Link to='/order-history' className="text-dark">অর্ডারের ইতিহাস</Link>
                             </li>
                             <li className="mb-1">
-                                <a href="my-wishlist.html" className="text-decoration-none text-dark">আমার পছন্দ তালিকা</a>
+                                <Link to='/my-wishlist' className="text-dark">আমার পছন্দ তালিকা</Link>
+                                <a href="my-wishlist.html" className="text-decoration-none text-dark"></a>
                             </li>
                             <li>
-                                <a href="order-track.html" className="text-decoration-none text-dark">অর্ডার ট্র্যাকিং</a>
+                                <Link to='/order-track' className="text-dark">অর্ডার ট্র্যাকিং</Link>
                             </li>
                         </ul>
                     </div>
@@ -48,20 +51,20 @@ const Footer = () => {
                         <h5 className="fw-bold mb-2">নীতিমালা</h5>
                         <ul className="list-unstyled">
                             <li className="mb-1">
-                                <a href="return-policy.html" className="text-decoration-none text-dark">রিটার্ন নীতিমালা</a>
+                                <Link to='/return-policy' className="text-dark">রিটার্ন নীতিমালা</Link>
                             </li>
                             <li className="mb-1">
-                                <a href="refund-policy.html" className="text-decoration-none text-dark">ফেরত নীতিমালা</a>
+                                <Link to='/refund-policy' className="text-dark">ফেরত নীতিমালা</Link>
                             </li>
                             <li className="mb-1">
-                                <a href="my-account.html" className="text-decoration-none text-dark">সাপোর্ট নীতিমালা</a>
+                                <Link to='/support-policy' className="text-dark">সাপোর্ট নীতিমালা</Link>
                             </li>
                             <li className="mb-1">
-                                <a href="terms-of-service.html" className="text-decoration-none text-dark">পরিষেবার
-                                    শর্তাবলী</a>
+                                <Link to='/terms-of-service' className="text-dark">পরিষেবার
+                                    শর্তাবলী</Link>
                             </li>
                             <li className="mb-1">
-                                <a href="privacy-policy.html" className="text-decoration-none text-dark">গোপনীয়তা নীতিমালা</a>
+                                <Link to='/privacy-policy' className="text-dark">গোপনীয়তা নীতিমালা</Link>
                             </li>
                         </ul>
                     </div>
@@ -69,38 +72,37 @@ const Footer = () => {
                         <h5 className="fw-bold mb-2">তথ্য</h5>
                         <ul className="list-unstyled">
                             <li className="mb-1">
-                                <a href="about-us.html" className="text-decoration-none text-dark">আমাদের সম্পর্কে</a>
+                                <Link to='/about-us' className="text-dark">আমাদের সম্পর্কে</Link>
                             </li>
                             <li className="mb-1">
-                                <a href="contact-us.html" className="text-decoration-none text-dark">যোগাযোগ করুন</a>
+                                <Link to='/contact-us' className="text-dark">যোগাযোগ করুন</Link>
                             </li>
                             <li className="mb-1">
-                                <a href="faq.html" className="text-decoration-none text-dark">প্রায়শই জিজ্ঞাসিত
-                                    প্রশ্নাবলী</a>
+                                <Link to='/faq' className="text-dark">প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী</Link>
                             </li>
                         </ul>
                         <h5 className="fw-bold mb-2">সামাজিক যোগাযোগ</h5>
                         <ul className="list-group list-group-horizontal">
                             <li className="list-group-item facebook">
-                                <a href="https://facebook.com/booksbdthebookshop" className="text-decoration-none text-dark"
+                                <a href={"https://facebook.com/booksbdthebookshop"} className="text-decoration-none text-dark"
                                     data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook">
                                     <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
                                 </a>
                             </li>
                             <li className="list-group-item instagram">
-                                <a href="https://www.instagram.com/booksbdshop/" className="text-decoration-none text-dark"
+                                <a href={"https://www.instagram.com/booksbdshop/"} className="text-decoration-none text-dark"
                                     data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram">
                                     <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                 </a>
                             </li>
                             <li className="list-group-item whatsapp">
-                                <a href="https://wa.me/8801713138707" className="text-decoration-none text-dark"
+                                <a href={"https://wa.me/8801713138707"} className="text-decoration-none text-dark"
                                     data-bs-toggle="tooltip" data-bs-placement="top" title="Whatsapp">
                                     <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon>
                                 </a>
                             </li>
                             <li className="list-group-item youtube">
-                                <a href="https://www.youtube.com/channel/UCOP0FmcXLQJgNjSDK5AaKUA"
+                                <a href={"https://www.youtube.com/channel/UCOP0FmcXLQJgNjSDK5AaKUA"}
                                     className="text-decoration-none text-dark" data-bs-toggle="tooltip" data-bs-placement="top"
                                     title="Youtube">
                                     <FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon>
