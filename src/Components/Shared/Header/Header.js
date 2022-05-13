@@ -71,7 +71,7 @@ const Header = () => {
                                     <Link to='/pre-order' className='text-white'>প্রি অর্ডার</Link>
                                 </li>
                                 <li className="list-inline-item"> 
-                                    <Link to='/institutional-order' className='text-white'>প্রাতিষ্ঠানিক অর্ডার</Link>
+                                    <Link to='/institutional-orders' className='text-white'>প্রাতিষ্ঠানিক অর্ডার</Link>
                                 </li>
                                 <li className="list-inline-item"> 
                                     <Link to='/subjective-books' className='text-white'>বিষয়ভিত্তিক বই</Link>

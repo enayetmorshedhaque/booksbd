@@ -1,0 +1,7 @@
+.category-card{
+    height: 120px;
+    background-image: url('../../../Resources/Images/Category/category_back.jpg');
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

@@ -16,6 +16,8 @@ import Footer from './Components/Shared/Footer/Footer';
 import Login from './Components/Auth/Login/Login';
 import ForgotPassword from './Components/Auth/ForgotPassword/ForgotPassword';
 import Register from './Components/Auth/Register/Register';
+import Categories from './Components/FrontEnd/Categories/Categories';
+import InstitutionalOrders from './Components/FrontEnd/InstitutionalOrders/InstitutionalOrders';
 
 function App() {
   return (
@@ -34,9 +36,12 @@ function App() {
         <Route path="/publications">
           <Publications></Publications>
         </Route>
-        {/* <Route path="/categories">
-          <AddParcel></AddParcel>
-        </Route> */}
+        <Route path="/categories">
+          <Categories></Categories>
+        </Route>
+        <Route path="/institutional-orders">
+          <InstitutionalOrders></InstitutionalOrders>
+        </Route>
         {/* <Route path="/manage-parcels">
           <Parcels></Parcels>
         </Route>
@@ -51,6 +56,9 @@ function App() {
         </Route>
         <Route path="/register">
           <Register></Register>
+        </Route>
+        <Route path="/contact-us">
+          <ContactUs></ContactUs>
         </Route>
         {/* <Route path="/privacy-policy">
           <PrivacyPolicy></PrivacyPolicy>
