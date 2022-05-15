@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,6 +17,7 @@ import ForgotPassword from './Components/Auth/ForgotPassword/ForgotPassword';
 import Register from './Components/Auth/Register/Register';
 import Categories from './Components/FrontEnd/Categories/Categories';
 import InstitutionalOrders from './Components/FrontEnd/InstitutionalOrders/InstitutionalOrders';
+import BookDetails from './Components/FrontEnd/BookDetails/BookDetails';
 
 function App() {
   return (
@@ -70,6 +70,7 @@ function App() {
           <DetailPrice></DetailPrice>
         </Route> */}
       </Switch>
+      <BookDetails></BookDetails>
       <Subscribe></Subscribe>
       <WhyChooseUs></WhyChooseUs>
       <Footer></Footer>
